@@ -1,0 +1,20 @@
+<section class="sectionForm">
+  <h1 class="title">
+    Formulario Artículo
+  </h1>
+  <div class="form">
+    <%= form_with model: article, html: { class: 'formContainer' } do |form| %>
+        <div>
+          <%= form.label :title, class: 'formLabel' %>
+          <%= form.text_field :title, class: 'formControl' %>
+        </div>
+        <div>
+          <%= form.label :body, class: 'formLabel' %>
+          <%= form.text_field :body, class: 'formControl' %>
+        </div>
+        <div>
+          <%= form.submit 'Guardar', class: 'btnForm' %>
+        </div>
+    <% end %>
+  </div>
+</section>

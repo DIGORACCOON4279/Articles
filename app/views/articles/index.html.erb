@@ -1,0 +1,14 @@
+<section class="section">
+  <div class="center">
+    <h1 class="titles">Lista de artículos</h1>
+    <ul>
+        <% @articles.each do |article| %>
+          <li>
+            <%= article.title %>...
+            <a href="/articles/<%= article.id %>" class="ctaArticles">Leer artículo</a>
+          </li>
+        <% end %>
+    </ul>
+    <%= link_to "New Article", new_article_path, class:"newArticle"%>
+  </div>
+</section>

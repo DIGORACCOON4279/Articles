@@ -1,0 +1,17 @@
+.section .center ul li .ctaArticles{
+  width:fit-content;
+  height:auto;
+  padding:10px 20px;
+  border-radius:10px;
+  text-align: center;
+ align-self: self-end;
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+  background-color:#00a2ff;
+  transition: 0.3s ease-in-out;
+  &:hover{
+    background-color:#00a2ffb7 ;
+  }
+}

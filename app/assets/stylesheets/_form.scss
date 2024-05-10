@@ -1,0 +1,87 @@
+// Section Form
+
+.sectionForm{
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  .title{
+    width:100%;
+    color:#8f8f8f;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .form{
+    width:50%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px #cacaca;
+    .formContainer{
+      width:80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:20px;
+      padding: 30px;
+      div{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap:10px;
+
+        .formLabel{
+          width:97.5%;
+          color:#a1a1a1;
+          font-size: 1.1rem;
+          font-weight: 300;
+          overflow: hidden;
+        }
+        .formControl{
+          width:97.5%;
+          color:#a1a1a1;
+          overflow: hidden;
+          font-size: 0.8rem;
+          font-weight: 300;
+          background-color: #ffffff;
+          border:1px solid #ffffff;
+          border-radius: 3px;
+          padding: 10px;
+        }
+        .btnForm{
+          width:100%;
+          height:auto;
+          padding:15px;
+          border-radius:10px;
+          text-align: center;
+          align-self: center;
+          margin-top:30px;
+          text-decoration: none;
+          color:#ffffff;
+          font-size: 1rem;
+          font-weight: 300;
+          border:none;
+          background-color:#919191;
+          transition: 0.3s ease-in-out;
+          &:hover{
+            background-color:#30303048;
+            border:none;
+          }
+        }
+      }
+
+    }
+  }
+}
