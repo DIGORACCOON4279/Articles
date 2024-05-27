@@ -12,8 +12,8 @@
       </h2>
 
       <ul>
-        <li><%= link_to "Edit", edit_article_path(@article), class:'link' %>✍</li>
-        <li><%= link_to "Destroy", article_path(@article), class:'link', data:{
+        <li><%= link_to "Editar", edit_article_path(@article), class:'link' %>✍</li>
+        <li><%= link_to "Eliminar", article_path(@article), class:'link', data:{
           turbo_method: :delete,
           turbo_confirm: "Are ya sure?"
           } %>❌</li>
